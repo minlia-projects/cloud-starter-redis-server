@@ -1,0 +1,25 @@
+{
+  "properties": [
+    {
+      "name": "system.redis.embedded",
+      "description": "是否启用开发环境的嵌入式redis服务器",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    }
+  ],
+  "hints": [
+    {
+      "name": "system.redis.embedded",
+      "values": [
+        {
+          "value": "true",
+          "description": "启用开发环境的嵌入式redis服务器"
+        },
+        {
+          "value": "false",
+          "description": "禁用开发环境的嵌入式redis服务器"
+        }
+      ]
+    }
+  ]
+}
